@@ -1,6 +1,6 @@
 // WRITE A PROGRAM TO DISPLAY THE SUM OF TWO NUMBERS 
 import java.util.Scanner;
-class Main {
+class Sum {
     public static void main(String[] args) {
       //create a scanner object to take input from the user.
          Scanner sc=new Scanner(System.in);
