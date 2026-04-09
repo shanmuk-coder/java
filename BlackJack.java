@@ -27,7 +27,7 @@ class BlackJack
 		   int b=sc.nextInt();
 		   int third=a+b;
 		   int win=21-third;
-		   if(win>10)
+		   if(win<1 || win>10)
 		   {
 		       System.out.println("-1");
 		}
